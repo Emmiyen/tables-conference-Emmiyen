@@ -86,3 +86,25 @@ h1 {
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
+
+/* table  */
+
+td {
+  border-bottom: 1px solid #ddd;
+}
+
+table {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  padding: 50px;
+  width: 80%;
+  color: rgb(101, 112, 108);
+}
+th{
+  height: 75px;
+}
+
+.workshops h2 {
+  color: rgb(63, 68, 62);
+}
