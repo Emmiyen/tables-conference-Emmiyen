@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@1,100;1,300&family=Inconsolata&family=Jost:wght@200&family=Roboto+Mono:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <section class="top-header">
+        <div class="top-div">
+          <h1>
+            Nic Cage <br />
+            Conference
+          </h1>
+        </div>
+
+        <div class="date-div">
+          <h2>August 24-26th-Chicago, IL</h2>
+        </div>
+
+        <ul>
+          <li><a href="about.asp">Register</a></li>
+          <li><a href="about.asp">Venue</a></li>
+          <li><a href="contact.asp">Schedule</a></li>
+          <li><a href="news.asp">Speakers</a></li>
+          <li><a href="default.asp">Home</a></li>
+        </ul>
+      </section>
+
+      <section class="bottom-header">
+        <div class="bottom-div">
+          <h2>Register</h2>
+          <p>
+            Registration is required at Nic Cages Conference
+          </p>
+        </div>
+      </section>
+    </header>
+    <main>
+      <div class="registration-left">
+        <h2>Purchase an all access Cage pass</h2>
+        <p><b>$1 per Pass</b></p>
+        <p>Purchase your Style Conference Pass using the form to the 
+          right. Multiple passes maybe Purchased withing the same order,
+           so feel free to bring a friend or two along. Once your oder is 
+           finshed we'll follow up and provide a receipt for your purchase.
+           See you soon!
+        </p>
+        <p>
+          <h3>Why Attend?</h3>
+          <ul>
+          <li>Only on speaker - Nic Cage </li>
+          <li>One full day of Nic Cage</li>
+          <li>Hosted at Nic Cage's house, a historical landmark</li>
+          <li>August is the best time of the year to visit Nic Cage</li>
+        </ul>
+        </p>
+      </div>
+      <div class="registration-right">
+        <form action="action_page.php">
+          <div class="container">
+            <h1>Register</h1>
+            <p>Please fill in this form to create an account.</p>
+            <hr>
+        
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" id="email" required>
+        
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+        
+            <label for="psw-repeat"><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+            <hr>
+        
+            <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+            <button type="submit" class="registerbtn">Register</button>
+          </div>
+        
+          <div class="container signin">
+            <p>Already have an account? <a href="#">Sign in</a>.</p>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
